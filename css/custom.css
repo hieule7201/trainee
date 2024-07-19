@@ -127,7 +127,9 @@
 .section {
     min-height: 211px;
     width: 100%;
-    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     margin-top: 80px;
 }
@@ -147,18 +149,10 @@
 }
 
 .section-title {
-    position: absolute;
-    width: 100%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     font-size: 38px;
-    text-transform: uppercase;
     font-weight: bold;
     text-align: center;
     z-index: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 /* FEATURE */
