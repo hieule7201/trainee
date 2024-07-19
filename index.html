@@ -17,8 +17,8 @@
         >
           <h3 class="logo primary-bg white-f5-color">CS</h3>
           <div
-            class="align-items-center h-100 d-flex align-items-center"
-            style="gap: 55px"
+            class="align-items-center d-flex align-items-center nav-bar close"
+            id="navbar"
           >
             <ul class="nav-bar-links d-flex">
               <li class="nav-item">
@@ -63,6 +63,9 @@
               </li>
             </ul>
           </div>
+          <button id="navbar-toggle" class="btn btn-navbar">
+            <img id="navbar-icon" src="./assets/icon/navbar.svg" alt="" />
+          </button>
         </div>
       </div>
       <!-- banner-box -->
@@ -72,7 +75,7 @@
         <h1 class="display white-f5-color">Creatives</h1>
         <h3 class="sub-display primary-color">Power by PSDfreebies.com</h3>
 
-        <div class="btn">
+        <div class="btn-banner">
           <p class="btn-title white-color">Scroll Down</p>
           <button class="btn-scroll">
             <img src="./assets/icon/down-arrow.svg" />
@@ -155,8 +158,8 @@
     </div>
     <!-- news -->
     <div class="d-flex flex-column">
-      <div class="d-flex w-100 gray-bg">
-        <div class="w-50 card-news-left-size">
+      <div class="d-flex w-100 gray-bg card-news">
+        <div class="w-50 w-md-100 card-news-left-size">
           <span class="sub-date white-color"
             >Jan 4, 2016
             <div>|</div>
@@ -172,16 +175,16 @@
             dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur
           </p>
         </div>
-        <div class="w-50">
+        <div class="w-50 w-md-100">
           <img
             src="./assets/images/news-1.png"
             alt="news 1"
-            class="w-100 h-100"
+            class="w-100 h-100 d-flex"
           />
         </div>
       </div>
-      <div class="d-flex w-100 white-f5-color row-reverse">
-        <div class="w-50 card-news-right-size">
+      <div class="d-flex w-100 white-f5-color row-reverse card-news">
+        <div class="w-50 w-md-100 card-news-right-size">
           <span class="sub-date gray-color"
             >Jan 4, 2016
             <div>|</div>
@@ -197,11 +200,11 @@
             dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur
           </p>
         </div>
-        <div class="w-50">
+        <div class="w-50 w-md-100">
           <img
             src="./assets/images/news-2.png"
             alt="news 2"
-            class="w-100 h-100"
+            class="w-100 h-100 d-flex"
           />
         </div>
       </div>
@@ -301,11 +304,13 @@
     <!-- footer -->
     <div class="primary-bg">
       <div class="list-2 container">
-        <div class="d-flex align-items-center" style="gap: 35px">
+        <div class="d-flex align-items-center flex-sm-column" style="gap: 35px">
           <div class="footer-card-icon">
             <img src="./assets/icon/write.svg" alt="write" />
           </div>
-          <div class="card-text mt-0 text-left white-color cut line-4">
+          <div
+            class="card-text mt-0 text-left text-sm-center white-color cut line-4"
+          >
             Cum sociis natoque penatibus et magnis dis parturient montes,
             nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel
@@ -314,11 +319,13 @@
             adipiscing elit. Sed posuere consectetur est at lobortis.
           </div>
         </div>
-        <div class="d-flex align-items-center" style="gap: 35px">
+        <div class="d-flex align-items-center flex-sm-column" style="gap: 35px">
           <div class="footer-card-icon">
             <img src="./assets/icon/write.svg" alt="write" />
           </div>
-          <div class="card-text mt-0 text-left white-color cut line-4">
+          <div
+            class="card-text mt-0 text-left text-sm-center white-color cut line-4"
+          >
             Cum sociis natoque penatibus et magnis dis parturient montes,
             nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel

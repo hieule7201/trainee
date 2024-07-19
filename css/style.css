@@ -85,6 +85,11 @@ html {
     align-items: center;
 }
 
+.btn {
+    border: 0;
+    background: transparent;
+}
+
 .w-100 {
     width: 100%;
 }
