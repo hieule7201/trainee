@@ -144,6 +144,7 @@
     font-weight: bold;
     font-family: Roboto;
     user-select: none;
+    pointer-events: none;
 }
 
 .section-title {
@@ -152,6 +153,9 @@
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* FEATURE */
