@@ -293,6 +293,10 @@
         display: flex;
     }
 
+    .hard-md-bg {
+        background-color: var(--hard-color);
+    }
+
     #navbar-icon {
         width: 50px;
     }
@@ -318,15 +322,18 @@
         gap: 0;
     }
 
-    .nav-bar-links .nav-item {
+    .nav-link {
+        display: block;
         width: 100vw;
         padding: 40px 0;
         text-align: center;
     }
 
-    .nav-bar-medias .nav-item {
+    .nav-media {
+        display: block;
         padding: 30px;
     }
+
 
     .display {
         font-size: 120px;

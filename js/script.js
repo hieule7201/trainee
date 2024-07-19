@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   toggleButton.addEventListener("click", function () {
     navbarContent.classList.toggle("close");
     const isOpen = navbarContent.classList.toggle("open");
-    headerBox.classList.toggle("hard-bg");
+    headerBox.classList.toggle("hard-md-bg");
     navbarIcon.src = isOpen ? closeIconSrc : openIconSrc;
   });
 });
